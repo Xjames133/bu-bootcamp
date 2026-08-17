@@ -1,0 +1,1 @@
+Throughout this module I've learned about the ins and outs of using git and github. For example, for this current portion we are utilizing branches and how these changes are separated from the main branch until merged. Allowing you to test changes before moving to the main prod line. In my work this is a very important skill to know!
