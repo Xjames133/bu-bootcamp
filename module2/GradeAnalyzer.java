@@ -1,3 +1,4 @@
+package module2;
 import java.io.*; 
 import java.util.ArrayList;
 
@@ -17,7 +18,8 @@ public class GradeAnalyzer {
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
         ArrayList<Integer> scores = new ArrayList<Integer>();
-        scores = readScores(args[0]);
+        //scores = readScores(args[0]);
+        scores = readScores("scores.txt");
         double avg = calculateAverage(scores);
 
 
